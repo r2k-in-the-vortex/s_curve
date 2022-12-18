@@ -12,8 +12,8 @@ fn main() {
     let start_conditions = SCurveStartConditions {
         q0: 0.,
         q1: 10.,
-        v0: 0.,
-        v1: 0.,
+        v0: -1.,
+        v1: -1.,
     };
     let input = SCurveInput {
         constraints,
